@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8c0be023-fee1-4bff-96a7-f2e12a2cfe22" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies>
+      <ReferencedAssembly AssemblyName="ClassLibrary1" />
+    </ReferencedAssemblies>
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/BookStoreHost/Service1/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="cabba11b-ce73-4449-920f-6196a3ac3ef3" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/BookStoreHost/Service1/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="faa13b44-9abd-492b-bfaf-b2e895fae6c9" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/BookStoreHost/Service1/?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="6d4ef1c1-c417-46d5-8889-d9d9e669d5a1" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/BookStoreHost/Service1/?wsdl" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="be2525f8-6460-4fa5-9a8a-2a9ce3b9822c" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/BookStoreHost/Service1/?xsd=xsd2" />
+    <MetadataFile FileName="item2.xsd" MetadataType="Schema" ID="b8136efb-057a-4e5c-88a8-3e0764714bc0" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/BookStoreHost/Service1/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
